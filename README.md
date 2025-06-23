@@ -1,11 +1,19 @@
 # Agentic-AI-Framework-with-MCP-Model-Context-Protocol-and-A2A-Agent-to-Agent-Protocols
 
-Business Use Case: Blog Content Creation Workflow![image](https://github.com/user-attachments/assets/9356114e-b4c0-4ccf-8919-7ac043e39495)
+Build scalable multi-agent workflows using Azure AI Agent Service, AutoGen based on Microsoft’s Educator Developer post .
 
+This repository demonstrates how to orchestrate three specialized agents to automate a blog content pipeline:
 
-You want to automate blog content creation using AI Agents:
- Content Collection Agent: Gathers relevant info using Bing or internal sources.
- Writer Agent: Drafts content using LLMs like Llama 3 or Mistral.
- Save Agent: Saves the blog to a file system, SharePoint, or Azure Blob Storage.
-These agents are orchestrated together using AutoGen or Semantic Kernel.
-![image](https://github.com/user-attachments/assets/1fa34b5f-3b28-4ade-81a1-58cc12866234)
+Content Collection Agent: Gathers background info using Bing grounding.
+
+Writer Agent: Drafts blog posts using LLMs like Llama 3 or Mistral.
+
+Save Agent: Persists the final content via Azure AI Agent Service's code-interpreter.
+
+You can orchestrate them using either:
+
+AutoGen (Python)
+
+Semantic Kernel (Python / C#)
+
+This enables collaboration across agents to accomplish complex end-to-end tasks .
